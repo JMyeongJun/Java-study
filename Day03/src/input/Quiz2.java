@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Quiz2 {
 	public static void main(String[] args) {
-		// 1. 이름, 국 영 수 점수를 저장할 변수를 선어
+		// 1. 이름, 국 영 수 점수를 저장할 변수를 선언
 		
 		// 2. 1번에 변수에 값을 입력 받는다
 		// 단, 국 영 수는 정수로 선언하며, 한줄에 세 점수를 모두 입력 받는다
