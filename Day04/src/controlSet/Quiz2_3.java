@@ -18,11 +18,12 @@ public class Quiz2_3 {
 
 		if (station >= 10) {
 			time = station * 4;
-			if (time >= 60) {
-				hour = Integer.toString(time / 60) + "시간 ";
-			}
 		} else {
 			time = station * 2;
+		}
+
+		if (time >= 60) {
+			hour = Integer.toString(time / 60) + "시간 ";
 		}
 
 		System.out.printf("총 소요시간은 %s%d분 입니다.", hour, time % 60);
